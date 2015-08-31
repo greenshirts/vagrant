@@ -1,7 +1,6 @@
 *
 
 !.gitignore
-Vagrantfile
-bootstrap.sh
-
-.vagrant/
+!Vagrantfile
+!bootstrap.sh
+!vagrant-vbguest*
