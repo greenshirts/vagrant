@@ -8,6 +8,5 @@ npm install -g npm
 npm install -g bower grunt-cli gulp nodemon
 npm install -g yo generator-hottowel generator-gulp-webapp
 
+systemctl stop firewalld
 systemctl disable firewalld
-
-ln -s /vagrant /home/vagrant/host_synced
