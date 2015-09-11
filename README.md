@@ -1,4 +1,4 @@
-# vagrant-frontend
+# Vagrant dev environments for GSDev
 
 Tested with Vagrant 1.7.4 and VirtualBox 4.3.30 on OS X Yosemite 10.10.5
 
