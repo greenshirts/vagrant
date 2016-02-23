@@ -24,8 +24,8 @@ Then
 
 ## Front-End
 
-Remember to install gulp-cli globally
+Remember to install gulp-cli & bower globally
 
-	npm install --global gulp-cli
+	npm install --global gulp-cli bower
 
 Happy coding!
