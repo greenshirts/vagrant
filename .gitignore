@@ -1,4 +1,3 @@
 .vagrant/
-host_synced/*
-!host_synced/backend.sh
-!host_synced/frontend.sh
+shared/*
+
