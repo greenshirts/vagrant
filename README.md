@@ -22,4 +22,10 @@ Then
 
 	vagrant up
 
+## Front-End
+
+Remember to install gulp-cli globally
+
+	npm install --global gulp-cli
+
 Happy coding!
