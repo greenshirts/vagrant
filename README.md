@@ -4,8 +4,8 @@
 
 - VirtualBox 4.3 (4.3.36)
 - vagrant 1.8 (1.8.1)
-- vagrant's plugins:
 
+vagrant's vbguest plugin is also recommended.
 
 	vagrant plugin install vagrant-vbguest
 
