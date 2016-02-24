@@ -6,6 +6,7 @@
 - vagrant 1.8 (1.8.1)
 - vagrant's plugins:
 
+
 	vagrant plugin install vagrant-vbguest
 
 Make sure you have ssh and rsync, means that on Windows, you have to have cygwin (for example) with those packages installed.
