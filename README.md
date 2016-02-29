@@ -1,24 +1,19 @@
-# Vagrant dev environments for GSDev
+# Vagrant dev environments for GreenShirts Dev
 
 ## Prerequisites
 
-VirtualBox 4.3 (4.3.36)
-vagrant 1.8 (1.8.1)
-vagrant's plugins:
+- VirtualBox 4.3 (4.3.36)
+- vagrant 1.8 (1.8.1)
+
+vagrant's vbguest plugin is also recommended.
 
 	vagrant plugin install vagrant-vbguest
 
+Make sure you have ssh and rsync, means that on Windows, you have to have cygwin (for example) with those packages installed.
+
 ## Bring the box up
 
-Download gs_c7_1602.box and import to vagrant
-
-	vagrant box add gs_c7_1602.box --name gs_c7_1602
-
-Create shared directory
-
-	mkdir shared
-
-Then
+Clone this repo then
 
 	vagrant up
 
@@ -28,4 +23,10 @@ Remember to install gulp-cli & bower globally
 
 	npm install --global gulp-cli bower
 
+## Back-End
+
+Virtualenv comes pre-installed, use it!
+
 Happy coding!
+
+PS: Boxes required by this repo are hosted in Vietnam, download speed may suck if you live in, say, teh north pole.
